@@ -1,0 +1,377 @@
+﻿
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Home</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href='http//fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<script type="text/javascript" src="js/jquery.min.js"></script>
+	 	<!---strat-slider---->
+	    <link rel="stylesheet" type="text/css" href="css/slider.css" />
+		<script type="text/javascript" src="js/modernizr.custom.28468.js"></script>
+		<script type="text/javascript" src="js/jquery.cslider.js"></script>
+			<script type="text/javascript">
+				$(function() {
+				
+					$('#da-slider').cslider({
+						autoplay	: true,
+						bgincrement	: 450
+					});
+				
+				});
+			</script>
+		<!---//strat-slider---->
+<!-- start top_js_button -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+   <script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+			});
+		});
+	</script>
+</head>
+<body>
+<!-- start header -->
+<div class="header_bg">
+<div class="wrap">
+	<div class="header">
+		<div class="logo">
+			<a href="index.html"><img src="images/logo.png" alt=""/> </a>
+		</div>
+		<div class="social-icons">
+		    <ul>
+		      <li><a href="#" target="_blank"></a></li>
+			  <li><a href="#" target="_blank"></a></li>
+		      <li><a href="#" target="_blank"></a></li>
+			  <li><a href="#" target="_blank"></a></li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+	</div>
+</div>
+</div>
+<!-- start header -->
+<div class="header_btm">
+<div class="wrap">
+	<div class="header_sub">
+		<div class="h_menu">
+			<ul>
+				<li class="active"><a href="index.html">主页</a></li>
+				<li><a href="about.html">节目介绍</a></li>
+				<li><a href="service.html">团队构成</a></li>
+				<li><a href="index.html">页面</a></li>
+				<li><a href="blog.html">其他节目</a></li>
+				<li><a href="about2.html">站长介绍</a></li>
+				<li><a href="contact.html">粉丝留言</a></li>
+			</ul>
+		</div>
+		<div class="h_search">
+    		<form>
+    			<input type="text" value="" placeholder="搜索......">
+    			<input type="submit" value="">
+    		</form>
+		</div>
+        <div class="menu">
+        	<ul>
+				<li><a href="index.html">主页</a></li>
+				<li><a href="about.html">节目介绍</a></li>
+				<li><a href="service.html">团队构成</a></li>
+				<li class="active"><a href="index.html">页面</a></li>
+				<li><a href="blog.html">其他节目</a></li>
+				<li><a href="about2.html">站长介绍</a></li>
+				<li><a href="contact.html">粉丝留言</a></li>
+            </ul>
+        </div>
+        <div class="search">
+            <form action="/iphone/search.html">
+                <input type="text" value="搜索" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Search';}" class="text">
+            </form>
+        </div>
+        <div class="sub-head">
+        	<ul>
+            	<li><a href="#" id="menu">Menu  <span></span></a></li>
+            	<li><a href="#" id="search">Search <span></span></a></li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+	   <script type="text/javascript">
+		$(".menu,.search").hide();
+		$("#menu").click(function(){
+			$(".menu").toggle();
+			$(".search").hide();
+			$("#search").removeClass("active");
+			$("#menu").toggleClass("active");
+		});
+		$("#search").click(function(){
+			$(".search").toggle();
+			$(".menu").hide();
+			$("#menu").removeClass("active");
+			$("#search").toggleClass("active");
+			$(".text").focus();
+		});
+	</script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<div class="clear"></div>
+
+		<div class="clear"></div>
+</div>
+</div>
+</div>
+<!-- start slider -->
+<div class="slider_bg">
+<div class="wrap">
+	<div class="slider">
+				<!---start-da-slider----->
+				<div id="da-slider" class="da-slider">
+				<div class="da-slide">
+					<h2>欢迎来到名侦探学院</h2>
+					<p>名侦探学院，要做就做南波万！</p>
+				</div>
+				<div class="da-slide">
+					<h2>名学语录</h2>
+					<p>“我将继续寻找，就算这无尽的星辰令我的寻找希望渺茫，就算我将单枪匹马。”</p>
+				</div>
+				<div class="da-slide">
+					<h2>名学语录</h2>
+					<p>我们每个人就像是蒲公英，会有飞离的一天。总有一个地方等着你的到来，看着你的花开。</p>
+				</div>
+				<div class="da-slide">
+					<h2>名学语录</h2>
+					<p>希望你们遇到的每个转折点，都是一个很好的机会。要学会去接纳别人，也要学会去接纳自己。毕竟人无完人，这才是人之常情。我们要相信花会自然开，老天爱笨小孩。如此年轻的你们，不要成为无聊的大人，要做独立特行的孩子。勇敢的人先享受世界，最后重要的就是爱自己了！</p>
+				</div>			
+				<nav class="da-arrows">
+					<span class="da-arrows-prev"></span>
+					<span class="da-arrows-next"></span>
+				</nav>
+			</div>
+ 			<!---//End-da-slider----->
+ 	</div>
+</div>
+</div>
+<!-- start main -->
+<div class="wrap">
+	<div class="main">
+		<div class="main_text">
+			<h2>南波万男团</h2>
+			<p class="para">南波万男团，又称“史上最不齐男团”，是芒果TV推出的一个高智商唱跳男团。该男团并非传统意义上的音乐或演艺团体，而是由一群在《名侦探学院》等节目中表现出色的嘉宾组成，他们因智慧、幽默和团队协作能力而受到观众的喜爱。南波万男团是一个由高学历、高智商、幽默风趣的青年组成的团体，他们在综艺节目中展现了出色的智慧和团队协作能力，赢得了众多粉丝的喜爱和支持。</p>
+		</div>
+		<!-- start grids_of_3 -->
+		<div class="grids_of_3">
+			<div class="grid1_of_3">
+				<img src="images/0a9600c43b6407be0bbe834f697ad9c.jpg" alt=""/>
+				<h3><a href="#">《跳进地理书的旅行》 </a></h3>
+				<p>一档益智文化类旅行综艺，南波万学长们在“读万卷书”的同时“行万里路”，实地打卡“地理教科书”中的美景，并用他们的学术知识、大神经验输出旅行中令人好奇、意想不到的知识点。</p>
+			</div>
+			<div class="grid1_of_3">
+				<img src="images/46732f9d4dfe7a12e65f1f12267f85b.jpg" alt=""/>
+				<h3><a href="#">《森林进化论》</a></h3>
+				<p>集理解、计算、观察、反应、战略、推理、沟通、信息甄别力等多维度展现了多元青年综合素质。在相互制衡的游戏规则之下，与玩家一起洞见理智的光辉，探索博弈的奥秘。</p>
+			</div>
+			<div class="grid1_of_3">
+				<img src="images/31.jpg" alt=""/>
+				<h3><a href="#">《名侦探学院》作品</a></h3>
+				<p>一个叫本科毕业于南京大学的男人画的logo。</p>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<!-- end grids_of_3 -->
+	</div>
+</div>
+<!-- start main_bg -->
+<div class="main_bg">
+<div class="wrap">
+	<div class="main content_top">
+		<!-- start span_of_3 -->
+		<div class="span_of_3">
+			<div class="span1_of_3">
+				<a href="details.html"><img src="images/8.jpg" alt=""/></a>
+				<div class="span1_of_3_text">
+					<h3><a href="details.html">剧本杀之MG音乐学院</a></h3>
+					<p>唐九洲、周峻纬、蒲熠星、邵明明、文韬、齐思钧</p>
+				</div>
+			</div>
+			<div class="span1_of_3">
+				<a href="details.html"><img src="images/5.jpg" alt="" /></a>
+				<div class="span1_of_3_text">
+					<h3><a href="details.html">公主嫁到续篇庆佘年</a></h3>
+					<p>蒲熠星、周峻纬、唐九洲、石凯、文韬、齐思钧</p>
+				</div>
+			</div>
+			<div class="span1_of_3">
+				<a href="details.html"><img src="images/9.jpg" alt=""/></a>
+				<div class="span1_of_3_text">
+					<h3><a href="details.html">酒店惊魂前传</a></h3>
+					<p>邵明明、齐思钧、文韬、唐九洲、罗予彤、蒲熠星</p>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<!--  -->
+		<div class="span_of_3">
+			<div class="span1_of_3">
+				<a href="details.html"><img src="images/7.jpg" alt=""/></a>
+				<div class="span1_of_3_text">
+					<h3><a href="details.html">帅府有诡</a></h3>
+					<p>齐思钧、蒲熠星、周峻纬、唐九洲、石凯、文韬</p>
+				</div>
+			</div>
+			<div class="span1_of_3">
+				<a href="details.html"><img src="images/6.jpg" alt=""/></a>
+				<div class="span1_of_3_text">
+					<h3><a href="details.html">还是冲不上的云霄</a></h3>
+					<p>蒲熠星、石凯、文韬、邵明明、嘟嘟</p>
+				</div>
+			</div>
+			<div class="span1_of_3">
+				<a href="details.html"><img src="images/4.jpg" alt=""/></a>
+				<div class="span1_of_3_text">
+					<h3><a href="details.html">第九条校规</a></h3>
+					<p>火树、蒲熠星、文韬、齐思钧、周峻纬、石凯、曹恩齐、何运晨、唐九洲</p>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<!-- end grids_of_3 -->
+	</div>
+</div>
+</div>
+<div class="wrap">
+		<ul id="flexiselDemo3">
+			<li><img src="images/client1.jpg" /></li>
+			<li><img src="images/client6.jpg" /></li>
+			<li><img src="images/client2.jpg" /></li>
+			<li><img src="images/client5.jpg" /></li>
+			<li><img src="images/client4.jpg" /></li>
+			<li><img src="images/client3.jpg" /></li>
+			<li><img src="images/client4.jpg" /></li>
+		</ul>
+	<script type="text/javascript">
+$(window).load(function() {
+	$("#flexiselDemo1").flexisel();
+	$("#flexiselDemo2").flexisel({
+		enableResponsiveBreakpoints: true,
+    	responsiveBreakpoints: { 
+    		portrait: { 
+    			changePoint:480,
+    			visibleItems: 1
+    		}, 
+    		landscape: { 
+    			changePoint:640,
+    			visibleItems: 2
+    		},
+    		tablet: { 
+    			changePoint:768,
+    			visibleItems: 3
+    		}
+    	}
+    });
+
+	$("#flexiselDemo3").flexisel({
+		visibleItems: 5,
+		animationSpeed: 1000,
+		autoPlay: true,
+		autoPlaySpeed: 3000,    		
+		pauseOnHover: true,
+		enableResponsiveBreakpoints: true,
+    	responsiveBreakpoints: { 
+    		portrait: { 
+    			changePoint:480,
+    			visibleItems: 1
+    		}, 
+    		landscape: { 
+    			changePoint:640,
+    			visibleItems: 2
+    		},
+    		tablet: { 
+    			changePoint:768,
+    			visibleItems: 3
+    		}
+    	}
+    });
+    
+});
+</script>
+<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+</div>
+<!-- start footer -->
+<div class="footer_bg">
+<div class="wrap">
+	<div class="footer">
+		<!-- start span_of_4 -->
+		<div class="span_of_4">
+			<div class="span1_of_4">
+				<h4>热门文章</h4>
+				<p>不重要不重要不重要的信息不重要的信息</p>
+				<ul class="f_nav1">
+					<li class="timer"><a href="#">2024.12.20 </a></li>
+				</ul>
+				<p class="top">不重要的信息不重要的信息不重要的信息不重要的信息</p>
+				<ul class="f_nav1">
+					<li class="timer"><a href="#">2024.12.20 </a></li>
+				</ul>
+			</div>
+			<div class="span1_of_4">
+				<h4>标签</h4>
+				<p>不重要的信息不重要的信息不重要的信息不重要的信息不重要的信息不重要的信息不重要的信息不重要的信息不重要的信息不重要的信息不重要的信息不重要的信息不重要的信息不重要的信息不重要的信息不重要的信息不重要的信息不重要的信息不重要的信息不重要的信息。</p>
+			</div>
+			<div class="span1_of_4">
+				<h4>关注我们</h4>
+				<p class="btm">您可以关注我们的网站，获取丰富的资讯与服务。例如，收藏我们的网址书签，定期查看网站更新内容，无论是新闻资讯、产品动态，还是特别活动通知，都不会错过。</p>
+				<p>长期以来，读者在阅读网页时都会关注其版面设计。</p>
+
+			</div>
+			<div class="span1_of_4">
+				<h4>联系我们</h4>
+				<p class="btm">如果您有任何需要请联系我们，例如：您可以在网站下方的“联系我们”板块填写在线表单，详细说明您的需求及联系方式，我们会尽快回复您。</p>
+				<p class="btm1 pin">吉林省长春市</p>
+				<p class="btm1 mail"><a href="mailto:info@mycompany.com">info(at)Catrina.com </a></p>
+				<p class="call">01234 444 777</p>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+</div>
+</div>
+<!-- start footer -->
+<div class="footer_bg1">
+<div class="wrap">
+	<div class="footer1">
+		<!-- scroll_top_btn -->
+	    <script type="text/javascript">
+			$(document).ready(function() {
+			
+				var defaults = {
+		  			containerID: 'toTop', // fading element id
+					containerHoverID: 'toTopHover', // fading element hover id
+					scrollSpeed: 1200,
+					easingType: 'linear' 
+		 		};
+				
+				
+				$().UItoTop({ easingType: 'easeOutQuart' });
+				
+			});
+		</script>
+		 <a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"></span></a>
+		<!--end scroll_top_btn -->
+		<div class="social-icons">
+		    <ul>
+		      <li><a href="#" target="_blank"></a></li>
+			  <li><a href="#" target="_blank"></a></li>
+		      <li><a href="#" target="_blank"></a></li>
+			  <li><a href="#" target="_blank"></a></li>
+			</ul>
+		</div>
+|
+		<div class="clear"></div>
+	</div>
+</div>
+</div>
+<div style="display:none"><script src='http//v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
+</body>
+</html>

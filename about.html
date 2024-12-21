@@ -1,0 +1,227 @@
+﻿
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>主页</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href='http//fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- start top_js_button -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+   <script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+			});
+		});
+	</script>
+</head>
+<body>
+<!-- start header -->
+<div class="header_bg">
+<div class="wrap">
+	<div class="header">
+		<div class="logo">
+			<a href="index.html"><img src="images/logo.png" alt=""/> </a>
+		</div>
+		<div class="social-icons">
+		    <ul>
+		      <li><a href="#" target="_blank"></a></li>
+			  <li><a href="#" target="_blank"></a></li>
+		      <li><a href="#" target="_blank"></a></li>
+			  <li><a href="#" target="_blank"></a></li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+	</div>
+</div>
+</div>
+<!-- start header -->
+<div class="header_btm">
+<div class="wrap">
+	<div class="header_sub">
+		<div class="h_menu">
+			<ul>
+				<li><a href="index.html">主页</a></li>
+				<li class="active"><a href="about.html">节目介绍</a></li>
+				<li><a href="service.html">团队构成</a></li>
+				<li><a href="index.html">页面</a></li>
+				<li><a href="blog.html">其他节目</a></li>
+				<li><a href="about2.html">站长介绍</a></li>
+				<li><a href="contact.html">粉丝留言</a></li>
+			</ul>
+		</div>
+		<div class="h_search">
+    		<form>
+    			<input type="text" value="" placeholder="search something...">
+    			<input type="submit" value="">
+    		</form>
+		</div>
+        <div class="menu">
+        	<ul>
+				<li><a href="index.html">主页</a></li>
+				<li class="active"><a href="about.html">节目介绍</a></li>
+				<li><a href="service.html">团队构成</a></li>
+				<li><a href="index.html">页面</a></li>
+				<li><a href="blog.html">其他节目</a></li>
+				<li><a href="about2.html">站长介绍</a></li>
+				<li><a href="contact.html">粉丝留言</a></li>
+            </ul>
+        </div>
+        <div class="search">
+            <form action="/iphone/search.html">
+                <input type="text" value="搜索" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = '搜索';}" class="text">
+            </form>
+        </div>
+        <div class="sub-head">
+        	<ul>
+            	<li><a href="#" id="menu">Menu  <span></span></a></li>
+            	<li><a href="#" id="search">Search <span></span></a></li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+	   <script type="text/javascript">
+		$(".menu,.search").hide();
+		$("#menu").click(function(){
+			$(".menu").toggle();
+			$(".search").hide();
+			$("#search").removeClass("active");
+			$("#menu").toggleClass("active");
+		});
+		$("#search").click(function(){
+			$(".search").toggle();
+			$(".menu").hide();
+			$("#menu").removeClass("active");
+			$("#search").toggleClass("active");
+			$(".text").focus();
+		});
+	</script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<div class="clear"></div>
+
+		<div class="clear"></div>
+</div>
+</div>
+</div>
+<!-- start top_bg -->
+<div class="top_bg">
+<div class="wrap">
+	<div class="top">
+		<h2>节目介绍</h2>
+ 	</div>
+</div>
+</div>
+<!-- start main -->
+<div class="wrap">
+<div class="main">
+		<div class="about">
+	       <div class="cont-grid">
+	       <div class="abt-para">
+	       	<span>名侦探学院</span>
+	       	<p class="para">《名侦探学院》，也被称为《明星大侦探之名侦探学院》，是由芒果TV出品的益智成长解密互动真人秀。该节目自2019年11月3日起，在芒果TV陆续播出了多季，包括《名侦探学院第一季》至《名侦探学院第九季》。每一季都汇聚了众多才华横溢的嘉宾，如蒲熠星、唐九洲、周峻纬、齐思钧等，他们通过精彩的线索分析、深厚的情谊和竞争，为观众带来了许多智慧和娱乐的碰撞。</p>
+	       	<p class="para">节目将娱乐与教育巧妙地结合在一起，参与者在解谜过程中需要了解各种知识，这无形中增加了他们的知识储备。同时，节目还传递了勇敢、智慧、协作等积极向上的价值观，有助于观众树立正确的人生观。《名侦探学院》是一档集智慧、娱乐、互动和挑战于一身的电视节目，它成功吸引了众多观众的关注，并为观众带来了欢乐和知识，同时提供了一个展示智慧和才艺的平台。</p>
+			<div class="read_more">
+				 <a class="btn" href="details.html">查看更多</a>
+			</div>
+	       	</div>
+	      	 <div class="clear"></div>
+	      	</div>
+			 <div class="cont-grid-img img_style">
+	     		<a href="details.html"><img src="images/1.jpg" alt=""></a>
+	     	</div>	      	
+	      	<div class="clear"></div>
+	    	<div class="about-p">
+		    	<p class="para">除此之外，院人还参加了许多节目： </p>
+				<p class="para">  《南波万的聚会》该节目以学长们欢快露营聚会好友局为主，聚焦展现学长们开心聚会、友情升温的温馨日常。学长们开启快乐合宿生活，他们相聚老友局走心畅聊，还进行音乐会等活动，展现青春热血的有爱新故事。</p>
+				<p class="para">《跳进地理书的旅行》一档益智文化类旅行综艺，南波万学长们在“读万卷书”的同时“行万里路”，实地打卡“地理教科书”中的美景，并用他们的学术知识、大神经验输出旅行中令人好奇、意想不到的知识点。</p>
+				<p class="para">《密室大逃脱大神版》实景解密体验秀，为《密室大逃脱》的衍生节目。名侦探学院的学员们作为密室测评官参与，展现他们的智慧与团队协作能力。</p>
+				<div class="read_more">
+					<a class="btn" href="details.html">查看更多</a>
+				</div>
+		</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+</div>
+<!-- start footer -->
+<div class="footer_bg">
+<div class="wrap">
+	<div class="footer">
+		<!-- start span_of_4 -->
+		<div class="span_of_4">
+			<div class="span1_of_4">
+				<h4>热门文章</h4>
+				<p>不重要不重要不重要的信息不重要的信息</p>
+				<ul class="f_nav1">
+					<li class="timer"><a href="#">2024.12.20 </a></li>
+				</ul>
+				<p class="top">不重要的信息不重要的信息不重要的信息不重要的信息</p>
+				<ul class="f_nav1">
+					<li class="timer"><a href="#">2024.12.20 </a></li>
+				</ul>
+			</div>
+			<div class="span1_of_4">
+				<h4>标签</h4>
+				<p>不重要的信息不重要的信息不重要的信息不重要的信息不重要的信息不重要的信息不重要的信息不重要的信息不重要的信息不重要的信息不重要的信息不重要的信息不重要的信息不重要的信息不重要的信息不重要的信息不重要的信息不重要的信息不重要的信息不重要的信息。</p>
+			</div>
+			<div class="span1_of_4">
+				<h4>关注我们</h4>
+				<p class="btm">您可以关注我们的网站，获取丰富的资讯与服务。例如，收藏我们的网址书签，定期查看网站更新内容，无论是新闻资讯、产品动态，还是特别活动通知，都不会错过。</p>
+				<p>长期以来，读者在阅读网页时都会关注其版面设计。</p>
+
+			</div>
+			<div class="span1_of_4">
+				<h4>联系我们</h4>
+				<p class="btm">如果您有任何需要请联系我们，例如：您可以在网站下方的“联系我们”板块填写在线表单，详细说明您的需求及联系方式，我们会尽快回复您。</p>
+				<p class="btm1 pin">吉林省长春市</p>
+				<p class="btm1 mail"><a href="mailto:info@mycompany.com">info(at)Catrina.com </a></p>
+				<p class="call">01234 444 777</p>
+			</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+</div>
+</div>
+<!-- start footer -->
+<div class="footer_bg1">
+<div class="wrap">
+	<div class="footer1">
+		<!-- scroll_top_btn -->
+	    <script type="text/javascript">
+			$(document).ready(function() {
+			
+				var defaults = {
+		  			containerID: 'toTop', // fading element id
+					containerHoverID: 'toTopHover', // fading element hover id
+					scrollSpeed: 1200,
+					easingType: 'linear' 
+		 		};
+				
+				
+				$().UItoTop({ easingType: 'easeOutQuart' });
+				
+			});
+		</script>
+		 <a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"></span></a>
+		<!--end scroll_top_btn -->
+		<div class="social-icons">
+		    <ul>
+		      <li><a href="#" target="_blank"></a></li>
+			  <li><a href="#" target="_blank"></a></li>
+		      <li><a href="#" target="_blank"></a></li>
+			  <li><a href="#" target="_blank"></a></li>
+			</ul>
+		</div>
+|
+		<div class="clear"></div>
+	</div>
+</div>
+</div>
+<div style="display:none"><script src='http//v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
+</body>
+</html>
